@@ -1,36 +1,12 @@
 {
-    "Alimentos": [
-      { "nombre": "Arroz", "precio": 2.50, "stock": 100 },
-      { "nombre": "Huevos (docena)", "precio": 2.80, "stock": 80 }
-    ],
-    "Lácteos": [
-      { "nombre": "Leche", "precio": 1.20, "stock": 50 }
-    ],
-    "Panadería": [
-      { "nombre": "Pan", "precio": 0.90, "stock": 75 }
-    ],
-    "Limpieza": [
-      { "nombre": "Jabón en polvo", "precio": 5.60, "stock": 30 },
-      { "nombre": "Detergente líquido", "precio": 6.50, "stock": 20 }
-    ],
-    "Bebidas": [
-      { "nombre": "Gaseosa", "precio": 1.50, "stock": 60 },
-      { "nombre": "Agua mineral", "precio": 1.00, "stock": 100 }
-    ],
-    "Higiene": [
-      { "nombre": "Papel higiénico", "precio": 4.00, "stock": 25 }
-    ],
-    "Aceites": [
-      { "nombre": "Aceite vegetal", "precio": 3.80, "stock": 40 }
-    ],
-    "Congelados": [
-      { "nombre": "Pizza congelada", "precio": 7.20, "stock": 15 },
-      { "nombre": "Helado", "precio": 4.30, "stock": 25 }
-    ],
-    "Enlatados": [
-      { "nombre": "Atún en lata", "precio": 2.10, "stock": 45 },
-      { "nombre": "Frijoles enlatados", "precio": 1.90, "stock": 30 }
-    ]
-  }
-  
-  
+"productos": [
+    { "nombre": "Galleta Oreo", "marca": "Nabisco", "precio": "5.00","presentacion": "bolsa", "stock": "10 unidades", "cantidad": "541 g" },
+    { "nombre": "Vizzio", "marca": "Costa", "precio": "10.00", "presentacion": "cartón", "stock": "5 unidades","cantidad": "72 g" },
+    { "nombre": "Yogurt de Fresa", "marca": "Gloria", "precio": "6.20","presentacion": "Botella", "stock": "20 unidades","cantidad": "1 kg"},
+
+    { "nombre": "Papas Lay's", "marca": "Lay's", "precio": "4.00","presentacion": "Bolsa", "stock": "15 unidades","cantidad": "70 g"},
+    { "nombre": "Pasas Original Pringles", "marca": "Pringles", "precio": "13.00","presentacion": "Bote", "stock": "20 unidades","cantidad": "37 g"},
+    { "nombre": "Leche en caja", "marca": "Gloria", "precio": "14.00","presentacion": "Carton", "stock": "20 unidades","cantidad": ""}
+  ]
+}
+
