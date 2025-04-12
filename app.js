@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 window.addEventListener("DOMContentLoaded", () => {
     fetch("data.json")
         .then(response => response.json())
@@ -28,6 +27,3 @@ window.addEventListener("DOMContentLoaded", () => {
             console.error('Error al cargar los productos:', error);
         });
 });
-=======
-xdddd
->>>>>>> b90b95487446df43735006805f5b679669e8acd0
