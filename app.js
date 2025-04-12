@@ -1,14 +1,15 @@
 window.addEventListener("DOMContentLoaded", () => {
-    fetch("data.json")
-        .then(response => response.json())
-        .then(data => {
-            const productos = data["productos"];
-            const productosContainer = document.querySelector("#prod"); 
+  fetch("data.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const productos = data["productos"];
+      const productosContainer = document.querySelector(".product-grid");
 
-            productos.forEach(producto => {
-                const productoHTML = `
+      productos.forEach((producto) => {
+        const productoHTML = `
                     <div class="col">
                         <div class="card h-100">
+                        <img src=${producto.source} class="card-img-top" alt="Producto 3">
                             <div class="card-body">
                                 <h5 class="card-title">${producto.nombre}</h5>
                                 <p class="card-text">Marca: ${producto.marca}</p>
@@ -19,11 +20,12 @@ window.addEventListener("DOMContentLoaded", () => {
                             </div>
                         </div>
                     </div>
+                        
                 `;
-                productosContainer.innerHTML += productoHTML;
-            });
-        })
-        .catch(error => {
-            console.error('Error al cargar los productos:', error);
-        });
+        productosContainer.innerHTML += productoHTML;
+      });
+    })
+    .catch((error) => {
+      console.error("Error al cargar los productos:", error);
+    });
 });

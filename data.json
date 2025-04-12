@@ -1,12 +1,58 @@
 {
-"productos": [
-    { "nombre": "Galleta Oreo", "marca": "Nabisco", "precio": "5.00","presentacion": "bolsa", "stock": "10 unidades", "cantidad": "541 g" },
-    { "nombre": "Vizzio", "marca": "Costa", "precio": "10.00", "presentacion": "cartón", "stock": "5 unidades","cantidad": "72 g" },
-    { "nombre": "Yogurt de Fresa", "marca": "Gloria", "precio": "6.20","presentacion": "Botella", "stock": "20 unidades","cantidad": "1 kg"},
-
-    { "nombre": "Papas Lay's", "marca": "Lay's", "precio": "4.00","presentacion": "Bolsa", "stock": "15 unidades","cantidad": "70 g"},
-    { "nombre": "Pasas Original Pringles", "marca": "Pringles", "precio": "13.00","presentacion": "Bote", "stock": "20 unidades","cantidad": "37 g"},
-    { "nombre": "Leche en caja", "marca": "Gloria", "precio": "14.00","presentacion": "Carton", "stock": "20 unidades","cantidad": ""}
+  "productos": [
+    {
+      "nombre": "Galleta Oreo",
+      "marca": "Nabisco",
+      "precio": "5.00",
+      "presentacion": "bolsa",
+      "stock": "10 unidades",
+      "cantidad": "541 g",
+      "source": "/imagenes/Oreopaq.jpg"
+    },
+    {
+      "nombre": "Vizzio",
+      "marca": "Costa",
+      "precio": "10.00",
+      "presentacion": "cartón",
+      "stock": "5 unidades",
+      "cantidad": "72 g",
+      "source": "/imagenes/vizzio.jpg"
+    },
+    {
+      "nombre": "Yogurt de Fresa",
+      "marca": "Gloria",
+      "precio": "6.20",
+      "presentacion": "Botella",
+      "stock": "20 unidades",
+      "cantidad": "1 kg",
+      "source": "/imagenes/yogurfresa.jpeg"
+    },
+    {
+      "nombre": "Papas Lay's",
+      "marca": "Lay's",
+      "precio": "4.00",
+      "presentacion": "Bolsa",
+      "stock": "15 unidades",
+      "cantidad": "70 g",
+      "source": "/imagenes/papaslays.jpg"
+    },
+    {
+      "nombre": "Pasas Original Pringles",
+      "marca": "Pringles",
+      "precio": "13.00",
+      "presentacion": "Bote",
+      "stock": "20 unidades",
+      "cantidad": "37 g",
+      "source": "/imagenes/Pringles.jpg"
+    },
+    {
+      "nombre": "Leche en caja",
+      "marca": "Gloria",
+      "precio": "14.00",
+      "presentacion": "Carton",
+      "stock": "20 unidades",
+      "cantidad": "",
+      "source": "/imagenes/leche.jpg"
+    }
   ]
 }
-
